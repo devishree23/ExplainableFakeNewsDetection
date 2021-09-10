@@ -1,3 +1,3 @@
 # Explainable Fake News Detection
 
-A novel deep learning based Explainable Fake News Detection model using LIME algorithm.
+This repository contains an explainable content-based supervised learning approach using bi-directional Gated Recurrent Unit (GRU) with an attention and Local Interpretable Model-Agnostic Explanation (LIME) algorithm to detect fake news and provide explanations for the model predictions. By using the LIME algorithm, the important features which contribute to the model's prediction can be visualized. The python implementation of LIME algorithm was referred from https://github.com/marcotcr/lime/. The model was trained on the popular ISOT dataset and outperforms existing models with an accuracy of 99.58%.
